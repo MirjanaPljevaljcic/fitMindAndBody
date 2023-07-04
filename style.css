@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3.5em;
+    margin: 0;
+    font-family: 'Bangers', cursive;
+}
+
+#masthead {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#masthead ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#masthead li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#masthead a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#masthead a:hover {
+    color: green;
+}
+
+#searchForm {
+    display: flex;
+    align-items: center;
+}
+
+#searchInput {
+    padding: 5px;
+    width: 200px;
+}
+
+#searchForm img {
+    width: 20px;
+    height: 20px;
+}
+
+#cartButton {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#cartButton img {
+    width: 25px;
+    height: 25px;
+}
+
+#cartButton:hover {
+    color: #555;
+}
+
+p {
+    font-family: 'Belanosima', sans-serif;
+    color: peru;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer li {
+    margin: 0 10px;
+}
